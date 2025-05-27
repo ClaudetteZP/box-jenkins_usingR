@@ -27,7 +27,7 @@ plot(bj_data$Month, bj_data$Leading_Indicator,
      xlab = "Time (Months)",
      ylab = "Leading Indicator",
      main = "Leading Indicator Over Time",
-     col = "blue", pch = 16, type ="b")
+     col = "blue", pch = 16, type ="b", lwd= 2)
 
 #Adding a trend line to analyze the pattern.
 abline(lm(bj_data$Leading_Indicator ~ bj_data$Month), col = "red", lwd = 2)
